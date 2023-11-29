@@ -1,5 +1,5 @@
 import React from 'react';
-import bikeImage from '../assets/bike.png';
+import houseImage from '../assets/house.jpg';
 
 const HeroSection = () => {
   return (
@@ -9,7 +9,7 @@ const HeroSection = () => {
         <h5>Stay tuned for something amazing</h5>
 
         <div className="image">
-          <img src={bikeImage} alt="image" />
+          <img src={houseImage} alt="image" />
         </div>
       </div>
     </section>
