@@ -97,3 +97,14 @@ button:hover {
 footer p {
     margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .image img {
+        width: 80%;
+        margin-left: 2.5rem;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+}
